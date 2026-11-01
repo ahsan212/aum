@@ -1,0 +1,10 @@
+column_name,unit,expected_range,type,description,dashboard_status
+timestamp,Date-time,2026-10-04 to 2026-10-10,Simulated,Start of each 15-minute interval,Required
+room_id,Text,R01-R03,Simulated,Unique room code,Required
+temperature_c,°C,20-32,Simulated,Indoor air temperature,Required
+occupancy_persons,persons,0-room capacity,Simulated,Estimated number of occupants,Required
+energy_kwh,kWh per 15 min,0-3,Simulated,Room cooling/electricity value used by dashboard,Required
+comfort_status,category,Comfortable or Attention,Derived,Simple comfort label,Required
+outdoor_temperature_c,°C,8-48,Public/Simulated,Outdoor dry-bulb temperature,Optional
+solar_radiation_w_m2,W/m²,0-1100,Public/Simulated,Solar radiation,Optional
+data_source,category,Simulated,Metadata,Visible data-source label,Required
